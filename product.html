@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f7ec">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Request product specifications and a quotation from Green Chemicals.">
+  <link rel="icon" type="image/png" href="assets/green-chemicals-g.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Green Chemicals">
+  <meta property="og:title" content="Green Chemicals — Product Details">
+  <meta property="og:description" content="Request product specifications and a quotation from Green Chemicals.">
+  <meta name="twitter:card" content="summary">
+  <title>Green Chemicals — Product Details</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=about-redesign-20261023">
+  <link rel="stylesheet" href="product.css?v=about-redesign-20261023">
+  <script src="products.js?v=product-photos-20261021" defer></script>
+  <script src="script.js?v=about-redesign-20261023" defer></script>
+  <script src="product-page.js?v=about-redesign-20261023" defer></script>
+</head>
+
+<body class="product-page">
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <header class="site-header glass">
+    <a class="brand" href="index.html#home" aria-label="Green Chemicals home"><img src="assets/green-chemicals-logo.png"
+        alt="Green Chemicals"></a>
+    <nav class="main-nav" aria-label="Main navigation"><a href="index.html#catalogue">Catalogue</a><a
+        href="index.html#finder">Chemical finder</a><a href="index.html#about">About</a><a
+        href="index.html#contact">Contact</a></nav>
+    <button class="button button-dark nav-cta" data-quote>Get a quote </button><button class="menu-toggle"
+      aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </header>
+  <div class="nav-backdrop" hidden></div>
+
+  <main class="product-main">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>›</span><a
+        href="index.html#catalogue">Products</a><span>›</span><span
+        id="crumb-category">Chemicals</span><span>›</span><span id="crumb-name">Product</span></nav>
+
+    <section class="product-hero" aria-labelledby="product-name">
+      <div class="product-visual glass" id="product-visual">
+        <div class="product-visual-glow"></div><img id="product-image" alt="Product packaging image" loading="eager" decoding="auto">
+        <div class="visual-image-tag"><span class="visual-check">✓</span> GREEN CHEMICALS PRODUCT</div><span
+          class="visual-index" id="visual-index">01 / 01</span>
+        <div class="visual-caption"><span class="caption-kicker">MATERIAL / <span
+              id="visual-category">SOLVENTS</span></span><strong id="visual-caption-name">Industrial chemical</strong>
+        </div>
+      </div>
+      <div class="product-intro">
+        <div class="product-badges"><span class="product-category" id="product-category">SOLVENTS</span><span
+            class="product-status"><i></i><span id="product-status-text">In Stock</span><small
+              id="product-warehouse">Bhosari Warehouse</small></span></div>
+        <h1 id="product-name">Product name</h1>
+        <div class="product-identifiers"><span><b>Grade</b><span id="product-grade">Available on
+              request</span></span><i></i><span><b>CAS</b><span id="product-cas">Available on
+              request</span></span><i></i><span><b>Formula</b><span id="product-formula">Available on
+              request</span></span></div>
+        <p class="product-description" id="product-description"></p>
+        <div class="product-actions"><button class="button button-dark" data-quote data-quote-product>Get a formal quote
+          </button><a class="button button-whatsapp" id="product-whatsapp" href="#" target="_blank"
+            rel="noopener noreferrer"><svg viewBox="0 0 32 32" aria-hidden="true">
+              <path
+                d="M16 3.2A12.7 12.7 0 0 0 5.1 22.4L3.4 29l6.8-1.8A12.8 12.8 0 1 0 16 3.2Zm0 2.4a10.3 10.3 0 0 1 8.6 15.9 10.2 10.2 0 0 1-12.3 3.8l-.6-.3-3.9 1 1-3.8-.4-.7A10.3 10.3 0 0 1 16 5.6Zm-4.4 5.1c-.3 0-.7.1-.9.4-.3.3-1.1 1-1.1 2.4s1.1 2.7 1.3 2.9c.2.2 2.2 3.4 5.4 4.6 2.7 1 3.3.8 3.9.7.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.7-.4l-2-.9c-.3-.1-.5-.2-.8.2-.2.4-.9 1.1-1.1 1.3-.2.2-.4.3-.7.1-.4-.2-1.5-.6-2.8-1.8-1-.9-1.7-2-1.9-2.3-.2-.4 0-.5.2-.7l.5-.6c.2-.2.2-.4.4-.6.1-.2 0-.4 0-.6l-.9-2.1c-.2-.5-.5-.7-.9-.7h-.1Z" />
+            </svg> WhatsApp Enquiry </a></div>
+        <div class="product-highlights" id="product-highlights"></div>
+      </div>
+      <aside class="procurement-card glass">
+        <h2><span class="card-heading-icon">▣</span> Procurement Parameters</h2>
+        <div class="parameter-list">
+          <div class="parameter-row"><span class="parameter-icon">▤</span><span>Minimum Order Quantity</span><strong
+              id="product-moq"></strong></div>
+          <div class="parameter-row"><span class="parameter-icon">▤</span><span>Standard Packaging</span><strong
+              id="product-packaging-summary"></strong></div>
+          <div class="parameter-row"><span class="parameter-icon">◇</span><span>Purity Assay</span><strong
+              id="product-purity"></strong></div>
+          <div class="parameter-row"><span class="parameter-icon">◷</span><span>Dispatch Lead Time</span><strong
+              id="product-dispatch"></strong></div>
+        </div>
+        <div class="integrity-card"><span class="integrity-icon">✓</span>
+          <div><strong>Institutional Integrity Rule</strong>
+            <p id="product-integrity"></p>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <div class="product-highlights-mobile" id="product-highlights-mobile"></div>
+    <nav class="technical-nav" aria-label="Product information sections"><a class="active"
+        href="#specifications">Technical Specifications</a><a href="#applications">Applications &amp; Industries</a><a
+        href="#documents">Technical Documents</a><a href="#safety">Safety &amp; Handling</a></nav>
+
+    <div class="product-detail-grid">
+      <section class="detail-panel glass" id="specifications">
+        <div class="detail-title"><span>01 / DATA SHEET</span>
+          <h2>Technical specifications</h2>
+        </div>
+        <div class="spec-table" id="spec-table"></div>
+      </section>
+      <section class="detail-panel glass" id="applications">
+        <div class="detail-title"><span>02 / WHERE IT WORKS</span>
+          <h2>Applications &amp; industries</h2>
+        </div>
+        <p class="detail-lead">Common uses listed for this product.</p>
+        <div class="application-tags" id="product-applications"></div>
+      </section>
+      <section class="detail-panel glass" id="documents">
+        <div class="detail-title"><span>03 / DOCUMENTATION</span>
+          <h2>Technical documents</h2>
+        </div>
+        <p class="detail-lead">Request product documents from Green Chemicals for your order.</p>
+        <div class="document-list">
+          <div><span class="document-icon">▤</span><span><b>Technical Data Sheet</b><small>TDS · Available on
+                request</small></span><button data-quote data-quote-product>Request ↗</button></div>
+          <div><span class="document-icon">▤</span><span><b>Safety Data Sheet</b><small>SDS · Available on
+                request</small></span><button data-quote data-quote-product>Request ↗</button></div>
+          <div><span class="document-icon">▤</span><span><b>Certificate of Analysis</b><small>COA · For supplied
+                batch</small></span><button data-quote data-quote-product>Request ↗</button></div>
+        </div>
+      </section>
+      <section class="detail-panel safety-panel glass" id="safety">
+        <div class="detail-title"><span>04 / RESPONSIBLE HANDLING</span>
+          <h2>Safety &amp; handling</h2>
+        </div>
+        <div class="safety-content"><span class="safety-badge">SAFETY INFORMATION</span>
+          <p id="product-safety"></p>
+          <div id="product-ppe" class="ppe-list"></div><small>Refer to the product SDS and follow applicable site
+            handling procedures.</small>
+        </div>
+      </section>
+      <section class="related-panel glass">
+        <div class="detail-title"><span>05 / KEEP EXPLORING</span>
+          <h2>Related chemicals</h2>
+        </div>
+        <div class="related-grid" id="related-products"></div>
+      </section>
+    </div>
+    <section class="product-final-cta">
+      <div>
+        <p class="eyebrow eyebrow-light">NEED A SPECIFIC QUANTITY OR PACK?</p>
+        <h2>Let’s get your<br><em>process moving.</em></h2>
+      </div><button class="button button-lime" data-quote data-quote-product>Request a formal quote </button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top"><a class="brand" href="index.html#home" aria-label="Green Chemicals home"><img
+          src="assets/green-chemicals-logo.png" alt="Green Chemicals"></a><span class="footer-line">Industrial
+        chemicals. Human connections.</span>
+      <div class="footer-links"><a href="index.html#catalogue">Catalogue</a><a href="index.html#about">About</a><a
+          href="index.html#contact">Enquiries</a></div><span class="copyright">© 2026 GREEN CHEMICALS</span>
+    </div>
+    <div class="footer-details">
+      <div class="footer-address-column"><span class="footer-label">REGISTERED ADDRESS</span>
+        <address>F-502, Bhaskar Plaza, Kasarwadi,<br>Pune - 411034, Maharashtra, India</address>
+      </div>
+      <div class="footer-address-column"><span class="footer-label">WAREHOUSE ADDRESS</span>
+        <address>J-5, Telco Road, MIDC Bhosari,<br>Pune - 411026, Maharashtra, India</address>
+      </div>
+      <div class="footer-business-column"><span class="footer-label">BUSINESS DETAILS &amp; ACCREDITATION</span>
+        <div class="footer-info-group"><b>Director</b><span>Mr. Sunil Gaikwad</span></div>
+        <div class="footer-info-group"><b>GSTIN</b><span>27AAKFG2282L1Z1</span></div>
+        <div class="footer-info-group footer-accreditation"><b>Accreditation</b><strong>ISO 9001:2015 Certified (QMS)</strong><span>Cert No. 15043 · Trading of Chemicals</span><button type="button" class="footer-cert-link" data-view-cert>View Certificate ↗</button></div>
+      </div>
+      <div class="footer-contact"><span class="footer-label">QUICK CONTACT</span>
+        <div class="footer-contact-list">
+          <p><b>WhatsApp</b><a href="https://wa.me/919881729731" target="_blank" rel="noopener noreferrer">+91 98817 29731 ↗</a></p>
+          <p><b>Alternate Phone</b><a href="tel:+919960048820">+91 99600 48820</a></p>
+          <p><b>Email</b><a href="mailto:greenchemicals077@gmail.com">greenchemicals077@gmail.com</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="quote-dialog glass" id="quote-dialog" aria-labelledby="dialog-title"><button class="dialog-close"
+      aria-label="Close enquiry form">×</button>
+    <div class="dialog-head">
+      <p class="eyebrow"><span>GREEN CHEMICALS · ENQUIRY</span></p>
+      <h2 id="dialog-title">Tell us what<br><em>you need.</em></h2>
+      <p>Share your contact details and we’ll help with your enquiry.</p>
+    </div>
+    <form id="quote-form" novalidate>
+      <div class="form-row">
+        <label>Full name<input name="name" autocomplete="name" placeholder="Your name"></label>
+        <label>Company name<input name="company" autocomplete="organization" placeholder="Company (optional)"></label>
+      </div>
+      <div class="form-row">
+        <label><span>Phone Number <span class="required-star" aria-hidden="true">*</span></span><input id="quote-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+91 98765 43210" required aria-describedby="phone-error"></label>
+        <label>Email Address<input id="quote-email" name="email" type="email" autocomplete="email" placeholder="you@company.com"></label>
+      </div>
+      <p class="field-error" id="phone-error" aria-live="polite"></p>
+      <label for="quote-product">Product / Chemical Name</label>
+      <select name="product" id="quote-product">
+        <option value="">Choose a product (optional)</option>
+        <option value="__other__">Other — write your product</option>
+      </select>
+      <input name="product_other" id="quote-product-other" placeholder="Enter product name" autocomplete="off" aria-label="Enter product name" hidden disabled>
+      <div class="form-row">
+        <label>Required quantity<input name="quantity" placeholder="e.g. 500 kg"></label>
+        <label>Packaging<input name="packaging" placeholder="e.g. HDPE drum"></label>
+      </div>
+      <label>Delivery location<input name="location" autocomplete="address-level2" placeholder="City, state"></label>
+      <label>Enquiry message<textarea name="message" rows="3" placeholder="Tell us a little about what you need (optional)"></textarea></label>
+      <button class="button button-dark submit-button" type="submit">Show send options <span>→</span></button>
+      <p class="form-note">Only your phone number is required. Your details stay in this form until you choose how to send them.</p>
+    </form>
+    <section class="quote-ready" id="quote-ready" aria-live="polite" hidden>
+      <div class="quote-ready-heading"><span class="quote-ready-mark" aria-hidden="true">↗</span><div><h3 tabindex="-1">Your enquiry is prepared</h3><p>Review your message, then choose how to send it.</p></div></div>
+      <textarea readonly id="enquiry-output" aria-label="Prepared enquiry message"></textarea>
+      <div class="quote-send-options">
+        <a class="copy-whatsapp" id="send-whatsapp" hidden target="_blank" rel="noopener noreferrer">Send via WhatsApp ↗</a>
+        <a class="send-email" id="send-email">Send via Email ↗</a>
+      </div>
+      <p class="delivery-note">WhatsApp opens a chat with Green Chemicals and your message filled in. Email opens a draft to greenchemicals077@gmail.com. Review and press Send in the app to deliver.</p>
+      <div class="quote-ready-actions"><button class="quote-edit" type="button" data-quote-edit>Edit enquiry</button><button class="copy-enquiry" id="copy-enquiry" type="button">Copy message</button></div>
+      <span class="copy-confirm" aria-live="polite"></span>
+      <p class="quote-delivery-error" role="alert" hidden></p>
+    </section>
+  </dialog>
+  <div class="dialog-backdrop" hidden></div>
+  <a class="whatsapp-float" data-whatsapp href="#" aria-label="Contact Green Chemicals on WhatsApp"><svg
+      viewBox="0 0 32 32" aria-hidden="true">
+      <path
+        d="M16 3.2A12.7 12.7 0 0 0 5.1 22.4L3.4 29l6.8-1.8A12.8 12.8 0 1 0 16 3.2Zm0 2.4a10.3 10.3 0 0 1 8.6 15.9 10.2 10.2 0 0 1-12.3 3.8l-.6-.3-3.9 1 1-3.8-.4-.7A10.3 10.3 0 0 1 16 5.6Zm-4.4 5.1c-.3 0-.7.1-.9.4-.3.3-1.1 1-1.1 2.4s1.1 2.7 1.3 2.9c.2.2 2.2 3.4 5.4 4.6 2.7 1 3.3.8 3.9.7.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.7-.4l-2-.9c-.3-.1-.5-.2-.8.2-.2.4-.9 1.1-1.1 1.3-.2.2-.4.3-.7.1-.4-.2-1.5-.6-2.8-1.8-1-.9-1.7-2-1.9-2.3-.2-.4 0-.5.2-.7l.5-.6c.2-.2.2-.4.4-.6.1-.2 0-.4 0-.6l-.9-2.1c-.2-.5-.5-.7-.9-.7h-.1Z" />
+    </svg><span>WhatsApp</span></a>
+
+  <!-- ISO 9001:2015 Certificate Modal -->
+  <dialog class="cert-dialog glass" id="iso-dialog" aria-labelledby="cert-dialog-title">
+    <button type="button" class="dialog-close cert-close" aria-label="Close certificate modal" data-close-cert>×</button>
+    <div class="cert-dialog-head">
+      <div>
+        <p class="eyebrow"><span>QUALITY MANAGEMENT SYSTEM</span></p>
+        <h3 id="cert-dialog-title">ISO 9001:2015 Certificate</h3>
+        <p>Certificate No. 15043 · Issued to GREEN CHEMICALS for Trading of Chemicals</p>
+      </div>
+    </div>
+    <img class="cert-preview-img" src="assets/iso-9001-certificate.png" alt="Green Chemicals ISO 9001:2015 Certificate of Registration">
+    <div class="cert-dialog-actions">
+      <a class="button button-dark" href="assets/iso-9001-certificate.pdf" target="_blank" download="Green-Chemicals-ISO-9001-Certificate.pdf">Download Certificate PDF ↗</a>
+      <button class="button button-glass cert-close" type="button" data-close-cert>Close</button>
+    </div>
+  </dialog>
+  <div class="cert-backdrop dialog-backdrop" hidden></div>
+</body>
+
+</html>
